@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.forest {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 100%;
+    z-index: -1;
+    filter: blur(5px);
+
+}
+
+header {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-size: 35px;
+    color: White;
+    /*walter?? ☝🏼*/
+}
+
+.walter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 40%;
+    height: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+}
+
+.Titulo {
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.fundotext {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 200px;
+    border-radius: 25px;
+}
+
+.game-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game {
+    text-align: center;
+    max-width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+.game img {
+    width: 1030px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.game h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.game p {
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #929292;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+
+a {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    width: 100px;
+    height: 80px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+    font-size: 30px;
+    
+}
